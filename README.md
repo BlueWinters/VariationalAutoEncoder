@@ -12,60 +12,71 @@ Variational AutoEncoder
 
 ## Result
 ### Manifold
-Visualizations of data manifold and distribution of labeled data(including train and test). 
-
-**Note**: in manifold.png the range of z is [-2,2]
- 
+Visualizations of data manifold. **Note**: in manifold.png the range of z is [-2,2]
 <table align='center'>
-<tr align='center'>
-<td> manifold </td>
-<td> train mappings </td>
-<td> test mappings </td>
-</tr>
-<tr>
-<td><img src = 'save/manifold.png' height = '300px'>
-<td><img src = 'save/train_z_map.png' height = '300px'>
-<td><img src = 'save/test_z_map.png' height = '300px'>
-</tr>
+	<tr align='center'>
+		<td> manifold </td>
+	</tr>
+	<tr>
+		<td><img src = 'save/manifold.png' height = '400px'></td>
+	</tr>
+</table>
+
+
+### Features
+The distribution of labeled data(including train and test).
+<table align='center'>
+	<tr align='center'>
+		<td> train mappings </td>
+		<td> test mappings </td>
+	</tr>
+	<tr>
+		<td><img src = 'save/train_z_map.png' height = '300px'>
+		<td><img src = 'save/test_z_map.png' height = '300px'>
+	</tr>
 </table>
 
 ### Loss & BCE & KLD
 <table align='center'>
-<tr align='center'>
-<td> Sum Loss </td>
-<td> BCE </td>
-<td> KLD </td>
-</tr>
-<tr>
-<td><img src = 'save/Loss.png' height = '250px'>
-<td><img src = 'save/BCE.png' height = '250px'>
-<td><img src = 'save/KLD.png' height = '250px'>
-</tr>
+	<tr align='center'>
+		<td> Sum Loss </td>
+		<td> BCE </td>
+		<td> KLD </td>
+	</tr>
+	<tr>
+		<td><img src = 'save/Loss.png' height = '300px'>
+		<td><img src = 'save/BCE.png' height = '300px'>
+		<td><img src = 'save/KLD.png' height = '300px'>
+	</tr>
 </table>
-</table>
+
 
 ### Reconstruction
 Reconstruction for images. Dimension is a very import factor for reconstruction.
 <table align='center'>
-<tr align='center'>
-<td> 2-Dim latent space </td>
-<td> 4-Dim latent space </td>
-<td> 8-Dim latent space </td>
-<td> 10-Dim latent space </td>
-<td> 20-Dim latent space </td>
-<td> 100-Dim latent space </td>
-</tr>
-<tr>
-<td><img src = 'save/dim2.png' height = '150px'>
-<td><img src = 'save/dim4.png' height = '150px'>
-<td><img src = 'save/dim8.png' height = '150px'>
-<td><img src = 'save/dim10.png' height = '150px'>
-<td><img src = 'save/dim20.png' height = '150px'>
-<td><img src = 'save/dim100.png' height = '150px'>
-</tr>
+	<tr align='center'>
+		<td> 2-Dim latent space </td>
+		<td> 4-Dim latent space </td>
+		<td> 8-Dim latent space </td>
+	</tr>
+	<tr>
+		<td><img src = 'save/dim2.png' height = '150px'>
+		<td><img src = 'save/dim4.png' height = '150px'>
+		<td><img src = 'save/dim8.png' height = '150px'>
+	</tr>
+	<tr align='center'>
+		<td> 10-Dim latent space </td>
+		<td> 20-Dim latent space </td>
+		<td> 100-Dim latent space </td>
+	</tr>
+	<tr>
+		<td><img src = 'save/dim10.png' height = '250px'>
+		<td><img src = 'save/dim20.png' height = '250px'>
+		<td><img src = 'save/dim100.png' height = '250px'>
+	</tr>
 </table>
 
 ## Reference
-The implementation is based on the projects:
+The implementation is based on the projects: 
 [1] https://github.com/hwalsuklee/tensorflow-mnist-VAE
 [2] https://github.com/kvfrans/variational-autoencoder 
