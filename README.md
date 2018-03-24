@@ -13,61 +13,66 @@ Variational AutoEncoder
 ## Result
 ### Manifold
 Visualizations of data manifold. **Note**: in manifold.png the range of z is [-2,2]
-![manifold](save/manifold.png)
+<p align="center"><img src="save/manifold.png" width="400", height="400"></p>
 
 
 ### Features
 The distribution of labeled data(including train and test).
-<table align='center'>
-	<tr align='center'>
-		<td> train mappings </td>
-		<td> test mappings </td>
-	</tr>
-	<tr>
-		<td><img src = 'save/train_z_map.png' height = '300px'>
-		<td><img src = 'save/test_z_map.png' height = '300px'>
-	</tr>
-</table>
+<p align="center">
+	<table align='center'>
+		<tr align='center'>
+			<td> train mappings </td>
+			<td> test mappings </td>
+		</tr>
+		<tr>
+			<td><img src = 'save/train_z_map.png' height = '300px'>
+			<td><img src = 'save/test_z_map.png' height = '300px'>
+		</tr>
+	</table>
+</p>
 
 ### Loss & BCE & KLD
-<table align='center'>
-	<tr align='center'>
-		<td> Sum Loss </td>
-		<td> BCE </td>
-		<td> KLD </td>
-	</tr>
-	<tr>
-		<td><img src = 'save/Loss.png' width='320px' height='240px'>
-		<td><img src = 'save/BCE.png' width='320px' height='240px'>
-		<td><img src = 'save/KLD.png' width='320px' height='240px'>
-	</tr>
-</table>
-
+<p align='center'>
+	<table align='center'>
+		<tr align='center'>
+			<td> Sum Loss </td>
+			<td> BCE </td>
+			<td> KLD </td>
+		</tr>
+		<tr>
+			<td><img src = 'save/Loss.png' width='320px' height='240px'>
+			<td><img src = 'save/BCE.png' width='320px' height='240px'>
+			<td><img src = 'save/KLD.png' width='320px' height='240px'>
+		</tr>
+	</table>
+</p>
 
 ### Reconstruction
 Reconstruction for images. Dimension is a very import factor for reconstruction.
-<table align='center'>
-	<tr align='center'>
-		<td> 2-Dim latent space </td>
-		<td> 4-Dim latent space </td>
-		<td> 8-Dim latent space </td>
-	</tr>
-	<tr>
-		<td><img src = 'save/dim2.png' height = '250px'>
-		<td><img src = 'save/dim4.png' height = '250px'>
-		<td><img src = 'save/dim8.png' height = '250px'>
-	</tr>
-	<tr align='center'>
-		<td> 10-Dim latent space </td>
-		<td> 20-Dim latent space </td>
-		<td> 100-Dim latent space </td>
-	</tr>
-	<tr>
-		<td><img src = 'save/dim10.png' height = '250px'>
-		<td><img src = 'save/dim20.png' height = '250px'>
-		<td><img src = 'save/dim100.png' height = '250px'>
-	</tr>
-</table>
+<p align='center'>
+	<table align='center'>
+		<tr align='center'>
+			<td> 2-Dim latent space </td>
+			<td> 4-Dim latent space </td>
+			<td> 8-Dim latent space </td>
+		</tr>
+		<tr>
+			<td><img src = 'save/dim2.png' width='320px' height = '320px'>
+			<td><img src = 'save/dim3.png' width='320px' height = '320px'>
+			<td><img src = 'save/dim8.png' width='320px' height = '320px'>
+		</tr>
+		<tr align='center'>
+			<td> 10-Dim latent space </td>
+			<td> 20-Dim latent space </td>
+			<td> 100-Dim latent space </td>
+		</tr>
+		<tr>
+			<td><img src = 'save/dim10.png' width='320px' height = '320px'>
+			<td><img src = 'save/dim20.png' width='320px' height = '320px'>
+			<td><img src = 'save/dim100.png' width='320px' height = '320px'>
+		</tr>
+	</table>
+</p>
 
 ## Reference
 The implementation is based on the projects: 
