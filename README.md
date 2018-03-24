@@ -12,7 +12,9 @@ Variational AutoEncoder
 
 ## Result
 ### Manifold
-Visualizations of data manifold and distribution of labeled data(including train and test). Note: in manifold.png the range of z is [-2,2]
+Visualizations of data manifold and distribution of labeled data(including train and test). 
+
+**Note**: in manifold.png the range of z is [-2,2]
  
 <table align='center'>
 <tr align='center'>
@@ -35,9 +37,9 @@ Visualizations of data manifold and distribution of labeled data(including train
 <td> KLD </td>
 </tr>
 <tr>
-<td><img src = 'save/Loss.png' height = '200px'>
-<td><img src = 'save/BCE.png' height = '200px'>
-<td><img src = 'save/KLD.png' height = '200px'>
+<td><img src = 'save/Loss.png' height = '250px'>
+<td><img src = 'save/BCE.png' height = '250px'>
+<td><img src = 'save/KLD.png' height = '250px'>
 </tr>
 </table>
 </table>
@@ -54,12 +56,12 @@ Reconstruction for images. Dimension is a very import factor for reconstruction.
 <td> 100-Dim latent space </td>
 </tr>
 <tr>
-<td><img src = 'save/dim2.jpg' height = '150px'>
-<td><img src = 'save/dim4.jpg' height = '150px'>
-<td><img src = 'save/dim8.jpg' height = '150px'>
-<td><img src = 'save/dim10.jpg' height = '150px'>
-<td><img src = 'save/dim20.jpg' height = '150px'>
-<td><img src = 'save/dim100.jpg' height = '150px'>
+<td><img src = 'save/dim2.png' height = '150px'>
+<td><img src = 'save/dim4.png' height = '150px'>
+<td><img src = 'save/dim8.png' height = '150px'>
+<td><img src = 'save/dim10.png' height = '150px'>
+<td><img src = 'save/dim20.png' height = '150px'>
+<td><img src = 'save/dim100.png' height = '150px'>
 </tr>
 </table>
 
