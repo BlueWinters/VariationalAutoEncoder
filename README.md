@@ -57,9 +57,9 @@ Reconstruction for images. Dimension is a very import factor for reconstruction.
 			<td> 8-Dim latent space </td>
 		</tr>
 		<tr>
-			<td><img src = 'save/dim2.png' width='280px' height='280px'>
-			<td><img src = 'save/dim3.png' width='280px' height='280px'>
-			<td><img src = 'save/dim8.png' width='280px' height='280px'>
+			<td><img src = 'save/dim2.png' width='250px' height='250px'>
+			<td><img src = 'save/dim4.png' width='250px' height='250px'>
+			<td><img src = 'save/dim8.png' width='250px' height='250px'>
 		</tr>
 		<tr align='center'>
 			<td> 10-Dim latent space </td>
@@ -67,9 +67,9 @@ Reconstruction for images. Dimension is a very import factor for reconstruction.
 			<td> 100-Dim latent space </td>
 		</tr>
 		<tr>
-			<td><img src = 'save/dim10.png' width='280px' height='280px'>
-			<td><img src = 'save/dim20.png' width='280px' height='280px'>
-			<td><img src = 'save/dim100.png' width='280px' height='280px'>
+			<td><img src = 'save/dim10.png' width='250px' height='250px'>
+			<td><img src = 'save/dim20.png' width='250px' height='250px'>
+			<td><img src = 'save/dim100.png' width='250px' height='250px'>
 		</tr>
 	</table>
 </p>
