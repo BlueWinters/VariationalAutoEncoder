@@ -13,14 +13,7 @@ Variational AutoEncoder
 ## Result
 ### Manifold
 Visualizations of data manifold. **Note**: in manifold.png the range of z is [-2,2]
-<table align='center'>
-	<tr align='center'>
-		<td> manifold </td>
-	</tr>
-	<tr>
-		<td><img src = 'save/manifold.png' height = '400px'></td>
-	</tr>
-</table>
+![manifold](save/manifold.png)
 
 
 ### Features
@@ -44,9 +37,9 @@ The distribution of labeled data(including train and test).
 		<td> KLD </td>
 	</tr>
 	<tr>
-		<td><img src = 'save/Loss.png' height = '300px'>
-		<td><img src = 'save/BCE.png' height = '300px'>
-		<td><img src = 'save/KLD.png' height = '300px'>
+		<td><img src = 'save/Loss.png' width='320px' height='240px'>
+		<td><img src = 'save/BCE.png' width='320px' height='240px'>
+		<td><img src = 'save/KLD.png' width='320px' height='240px'>
 	</tr>
 </table>
 
@@ -60,9 +53,9 @@ Reconstruction for images. Dimension is a very import factor for reconstruction.
 		<td> 8-Dim latent space </td>
 	</tr>
 	<tr>
-		<td><img src = 'save/dim2.png' height = '150px'>
-		<td><img src = 'save/dim4.png' height = '150px'>
-		<td><img src = 'save/dim8.png' height = '150px'>
+		<td><img src = 'save/dim2.png' height = '250px'>
+		<td><img src = 'save/dim4.png' height = '250px'>
+		<td><img src = 'save/dim8.png' height = '250px'>
 	</tr>
 	<tr align='center'>
 		<td> 10-Dim latent space </td>
