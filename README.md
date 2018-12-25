@@ -75,5 +75,5 @@ Reconstruction for images. Dimension is a very import factor for reconstruction.
 </p>
 
 ## Reference 
-[1] [hwalsuklee/tensorflow-mnist-VAE](https://github.com/hwalsuklee/tensorflow-mnist-VAE)
+[1] [hwalsuklee/tensorflow-mnist-VAE](https://github.com/hwalsuklee/tensorflow-mnist-VAE)  
 [2] [kvfrans/variational-autoencoder](https://github.com/kvfrans/variational-autoencoder)
